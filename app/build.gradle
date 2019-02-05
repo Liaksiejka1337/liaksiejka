@@ -27,8 +27,8 @@ android {
         config {
             keyAlias 'myalias'
             keyPassword 'aliaspass'
-            storeFile file('./keystores/android.jks')
-            storePassword 'keystorepass'
+            storeFile rootProject.file(keystoreProperties['storeFile'])
+            storePassword keystoreProperties['storePassword']
         }
     }
     compileSdkVersion 28
