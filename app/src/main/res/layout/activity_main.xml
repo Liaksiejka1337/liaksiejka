@@ -68,6 +68,6 @@
             android:layout_width="250dp"
             android:layout_height="250dp"
             android:layout_gravity="center"
-            app:srcCompat="@mipmap/me" />
+            android:src="@drawable/me_sea" />
     </android.support.v7.widget.CardView>
 </android.support.constraint.ConstraintLayout>
