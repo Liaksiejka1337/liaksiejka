@@ -27,7 +27,7 @@ android {
         config {
             keyAlias 'myalias'
             keyPassword 'aliaspass'
-            storeFile file('/Users/charnevicha/homework/hw1/keystores/android.jks')
+            storeFile file('./keystores/android.jks')
             storePassword 'keystorepass'
         }
     }
