@@ -20,6 +20,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:ems="10"
+        android:gravity="center"
         android:inputType="textPersonName"
         android:text="@string/author_name"
         app:layout_constraintEnd_toEndOf="parent"
