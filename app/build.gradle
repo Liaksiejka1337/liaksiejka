@@ -46,14 +46,14 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.config
             ext.betaDistributionReleaseNotes='Release notes for this build.'
-            ext.betaDistributionGroupAliases='release_app'
+            ext.betaDistributionGroupAliases='charnevich_alex'
         }
         assembleRelease {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.config
             ext.betaDistributionReleaseNotes='Release notes for this build.'
-            ext.betaDistributionGroupAliases='release_app'
+            ext.betaDistributionGroupAliases='charnevich_alex'
         }
     }
 }
