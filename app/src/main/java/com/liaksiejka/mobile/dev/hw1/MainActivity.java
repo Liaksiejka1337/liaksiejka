@@ -15,7 +15,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Fabric.with(this, new Crashlytics(), new CrashlyticsNdk());
-        setContentView(R.layout.activity_main);
+        getSupportActionBar().hide();
+        setContentView(R.layout.welcome_page_first);
 
         AppCenter.start(getApplication(), "8882ea0b-67da-4ed8-b82c-de60b9914766",
                 Analytics.class, Crashes.class);

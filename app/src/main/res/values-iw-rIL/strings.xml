@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Launcher</string>
+    <string name="author_name">יתר על כן</string>
+    <string name="app_welcome">משתמש היי</string>
+    <string name="btn_next">הבא</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Launcher</string>
+    <string name="app_welcome">Pozdrawiam użytkownika</string>
+    <string name="author_name">Alaksiej Czarniewicz</string>
+    <string name="btn_next">Dalej</string>
+</resources>

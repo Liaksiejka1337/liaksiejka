@@ -1,5 +1,11 @@
 <resources>
-    <string name="app_name">Aliaksei_Charnevich_APP</string>
     <string name="author_name">Aliaksei Charnevich</string>
-    <string name="author_repository_link">https://github.com/Liaksiejka1337/liaksiejka</string>
+    <string name="author_repository_link" translatable="false">https://github.com/Liaksiejka1337/liaksiejka</string>
+
+    <string name="app_name">Launcher</string>
+    <string name="app_welcome">Welcome dear user</string>
+    <string name="btn_next">Next</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
 </resources>

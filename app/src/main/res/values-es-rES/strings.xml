@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lanzacohetes</string>
+    <string name="author_name">Aliaksei Charnevich</string>
+    <string name="btn_next">Siguiente</string>
+    <string name="app_welcome">Hola usuario</string>
+</resources>
