@@ -4,4 +4,5 @@
     <string name="app_welcome">Pozdrawiam użytkownika</string>
     <string name="author_name">Alaksiej Czarniewicz</string>
     <string name="btn_next">Dalej</string>
+    <string name="app_description">Aplikacja stworzona przez Aliakseia Charnevicha</string>
 </resources>

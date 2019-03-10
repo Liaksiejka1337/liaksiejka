@@ -4,4 +4,5 @@
     <string name="author_name">Aliaksei Charnevich</string>
     <string name="btn_next">Siguiente</string>
     <string name="app_welcome">Hola usuario</string>
+    <string name="app_description">Aplicación creada por Aliaksei Charnevich.</string>
 </resources>

@@ -5,6 +5,7 @@
     <string name="app_name">Лаунчер</string>
     <string name="app_welcome">Здравствуй Пользователь</string>
     <string name="btn_next">Далее</string>
+    <string name="app_description">Приложение создано Черневичем Алексеем</string>
 
     <!-- TODO: Remove or change this placeholder text -->
 </resources>

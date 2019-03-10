@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    dependencies: compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:design:23.1.1'
+    compile 'com.android.support:cardview-v7:23.1.1'
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="456px"
+                android:layout_height="456px"
+                android:layout_gravity="center"
+                android:layout_marginStart="48px"
+                android:layout_marginLeft="48px"
+                android:layout_marginTop="48px"
+                android:layout_marginEnd="48px"
+                android:layout_marginRight="48px"
+                android:layout_marginBottom="48px"
+                android:foregroundGravity="center_vertical|center"
+                app:cardCornerRadius="120dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/imageViewIcon"
+                    android:layout_width="456px"
+                    android:layout_height="456px"
+                    android:layout_gravity="center"
+                    android:layout_margin="48px"
+                    android:padding="0px"
+                    android:src="@drawable/me_sea" />
+            </android.support.v7.widget.CardView>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|left|center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewAppName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="60px"
+                        android:layout_gravity="top|left"
+                        android:layout_marginStart="48px"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginEnd="48px"
+                        android:layout_marginBottom="48px"
+                        android:height="60px"
+                        android:gravity="bottom|center_horizontal"
+                        android:padding="0px"
+                        android:text="@string/app_name"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+                    <TextView
+                        android:id="@+id/textViewAppWelcome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48px"
+                        android:layout_gravity="bottom|center|left"
+                        android:layout_marginStart="48px"
+                        android:layout_marginLeft="48px"
+                        android:layout_marginTop="48px"
+                        android:layout_marginEnd="48px"
+                        android:layout_marginRight="48px"
+                        android:layout_marginBottom="48px"
+                        android:gravity="bottom|center_horizontal"
+                        android:padding="0px"
+                        android:text="@string/app_description"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewAppName" />
+
+                </LinearLayout>
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginStart="48px"
+            android:layout_marginLeft="48px"
+            android:layout_marginTop="48px"
+            android:layout_marginEnd="48px"
+            android:layout_marginRight="48px"
+            android:layout_marginBottom="48px"
+            android:gravity="center|center_horizontal"
+            android:text="@string/btn_next"
+            android:theme="@style/AppTheme.Button" />
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>
