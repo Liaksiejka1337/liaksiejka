@@ -5,4 +5,6 @@
     <string name="app_welcome">משתמש היי</string>
     <string name="btn_next">הבא</string>
     <string name="app_description">יישום נוצר על ידי Aliaksei Charnevich</string>
+    <string name="app_dark_theme">ערכת נושא כהה</string>
+    <string name="app_light_theme">נושא קל</string>
 </resources>

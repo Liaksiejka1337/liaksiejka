@@ -5,4 +5,6 @@
     <string name="author_name">Alaksiej Czarniewicz</string>
     <string name="btn_next">Dalej</string>
     <string name="app_description">Aplikacja stworzona przez Aliakseia Charnevicha</string>
+    <string name="app_dark_theme">Ciemny schemat</string>
+    <string name="app_light_theme">Svietly schemat</string>
 </resources>

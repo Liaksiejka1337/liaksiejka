@@ -5,4 +5,6 @@
     <string name="btn_next">Siguiente</string>
     <string name="app_welcome">Hola usuario</string>
     <string name="app_description">Aplicación creada por Aliaksei Charnevich.</string>
+    <string name="app_dark_theme">Tema oscuro</string>
+    <string name="app_light_theme">Tema ligero</string>
 </resources>

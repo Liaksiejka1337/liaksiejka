@@ -6,6 +6,8 @@
     <string name="app_welcome">Здравствуй Пользователь</string>
     <string name="btn_next">Далее</string>
     <string name="app_description">Приложение создано Черневичем Алексеем</string>
+    <string name="app_dark_theme">Тёмная тема</string>
+    <string name="app_light_theme">Светлая тема</string>
 
     <!-- TODO: Remove or change this placeholder text -->
 </resources>

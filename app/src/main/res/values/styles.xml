@@ -10,4 +10,8 @@
     <style name="AppTheme.Button" parent="Base.Widget.AppCompat.Button">
         <item name="colorButtonNormal">@color/colorPrimary</item>
     </style>
+    <style name="AppTheme.RadioButton" parent="Base.Widget.AppCompat.Button">
+        <item name="colorControlNormal">@color/colorBlack</item>
+        <item name="colorControlActivated">@color/colorPrimaryDark</item>
+    </style>
 </resources>
