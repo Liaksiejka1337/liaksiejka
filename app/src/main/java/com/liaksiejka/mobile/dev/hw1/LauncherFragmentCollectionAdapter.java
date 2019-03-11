@@ -26,12 +26,16 @@ public class LauncherFragmentCollectionAdapter extends FragmentStatePagerAdapter
                 ThemePageFragment tpFragment = new ThemePageFragment();
                 return tpFragment;
             }
+            case 3: {
+                LayoutPageFragment lpFragment = new LayoutPageFragment();
+                return lpFragment;
+            }
         }
         return null;
     }
 
     @Override
     public int getCount() {
-        return 3;
+        return 4;
     }
 }

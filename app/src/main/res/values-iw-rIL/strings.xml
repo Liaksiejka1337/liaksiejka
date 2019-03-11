@@ -7,4 +7,10 @@
     <string name="app_description">יישום נוצר על ידי Aliaksei Charnevich</string>
     <string name="app_dark_theme">ערכת נושא כהה</string>
     <string name="app_light_theme">נושא קל</string>
+    <string name="app_tight_layout">פריסה צמודה</string>
+    <string name="app_standard_layout">פריסה רגילה</string>
+    <string name="app_standard_layout_hint_port">דיוקן: 4 סמלים ברצף</string>
+    <string name="app_tight_layout_hint_port">דיוקן: 5 סמלים ברצף</string>
+    <string name="app_standard_layout_hint_land">נוף: 6 סמלים בשורה</string>
+    <string name="app_tight_layout_hint_land">נוף: 7 סמלים בשורה</string>
 </resources>

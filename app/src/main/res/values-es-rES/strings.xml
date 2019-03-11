@@ -7,4 +7,10 @@
     <string name="app_description">Aplicación creada por Aliaksei Charnevich.</string>
     <string name="app_dark_theme">Tema oscuro</string>
     <string name="app_light_theme">Tema ligero</string>
+    <string name="app_tight_layout">Diseño apretado</string>
+    <string name="app_standard_layout">Diseño estándar</string>
+    <string name="app_standard_layout_hint_port">Retrato: 4 iconos en una fila</string>
+    <string name="app_tight_layout_hint_port">Retrato: 5 iconos en una fila</string>
+    <string name="app_standard_layout_hint_land">Paisaje: 6 iconos en una fila</string>
+    <string name="app_tight_layout_hint_land">Paisaje: 7 iconos en una fila</string>
 </resources>

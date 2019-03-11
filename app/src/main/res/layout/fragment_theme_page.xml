@@ -20,8 +20,11 @@
                 android:id="@+id/radioButtonLightTheme"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_gravity="center"
                 android:layout_weight="1"
                 android:checked="true"
+                android:foregroundGravity="center"
+                android:gravity="center"
                 android:padding="48px"
                 android:text="@string/app_light_theme"
                 android:theme="@style/AppTheme.RadioButton" />
@@ -32,6 +35,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@color/colorLightGrey"
+                android:foregroundGravity="center"
+                android:gravity="center"
                 android:padding="48px"
                 android:text="@string/app_dark_theme"
                 android:theme="@style/AppTheme.RadioButton" />

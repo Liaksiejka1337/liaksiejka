@@ -7,4 +7,10 @@
     <string name="app_description">Дадатак створаны Аляксеем Чарневічам</string>
     <string name="app_dark_theme">Цёмная цема</string>
     <string name="app_light_theme">Светлая цема</string>
+    <string name="app_standard_layout">Стандартны Макет</string>
+    <string name="app_tight_layout">Шчыльны Макет</string>
+    <string name="app_standard_layout_hint_port">Партрэтная: 4 абразкі ў шэраг</string>
+    <string name="app_tight_layout_hint_port">Партрэтная: 5 абразкоў ў шэраг</string>
+    <string name="app_standard_layout_hint_land">Ландшафтная: 6 абразкоў ў шэраг</string>
+    <string name="app_tight_layout_hint_land">Ландшафтная: 7 абразкоў ў шэраг</string>
 </resources>

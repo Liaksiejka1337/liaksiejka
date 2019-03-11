@@ -7,4 +7,10 @@
     <string name="app_description">Aplikacja stworzona przez Aliakseia Charnevicha</string>
     <string name="app_dark_theme">Ciemny schemat</string>
     <string name="app_light_theme">Svietly schemat</string>
+    <string name="app_tight_layout">Układ mocny</string>
+    <string name="app_standard_layout">Układ standardowy</string>
+    <string name="app_standard_layout_hint_port">Portret: 4 ikony z rzędu</string>
+    <string name="app_tight_layout_hint_port">Portret: 5 ikon z rzędu</string>
+    <string name="app_standard_layout_hint_land">Krajobraz: 6 ikon z rzędu</string>
+    <string name="app_tight_layout_hint_land">Krajobraz: 7 ikon z rzędu</string>
 </resources>

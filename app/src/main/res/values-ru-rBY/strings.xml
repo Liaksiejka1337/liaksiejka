@@ -8,6 +8,10 @@
     <string name="app_description">Приложение создано Черневичем Алексеем</string>
     <string name="app_dark_theme">Тёмная тема</string>
     <string name="app_light_theme">Светлая тема</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="app_tight_layout">Плотный Макет</string>
+    <string name="app_standard_layout">Стандартный макет</string>
+    <string name="app_standard_layout_hint_port">Портретная: 4 иконки в ряд</string>
+    <string name="app_tight_layout_hint_port">Портретная: 5 иконок в ряд</string>
+    <string name="app_standard_layout_hint_land">Ландшафтная: 6 иконок в ряд</string>
+    <string name="app_tight_layout_hint_land">Ландшафтная: 7 иконок в ряд</string>
 </resources>

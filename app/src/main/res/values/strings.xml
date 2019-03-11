@@ -6,8 +6,16 @@
     <string name="app_welcome">Welcome dear user</string>
     <string name="btn_next">Next</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="app_description">Application created by Aliaksei Charnevich</string>
+
     <string name="app_dark_theme">Dark theme</string>
     <string name="app_light_theme">Light theme</string>
+
+    <string name="app_standard_layout">Standard Layout</string>
+    <string name="app_standard_layout_hint_port">Portrait: 4 icons in a row</string>
+    <string name="app_standard_layout_hint_land">Landscape: 6 icons in a row</string>
+
+    <string name="app_tight_layout">Tight Layout</string>
+    <string name="app_tight_layout_hint_port">Portrait: 5 icons in a row</string>
+    <string name="app_tight_layout_hint_land">Landscape: 7 icons in a row</string>
 </resources>
